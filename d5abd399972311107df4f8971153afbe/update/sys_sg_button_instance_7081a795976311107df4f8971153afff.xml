@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Delete Swipe (interactions)">fc81a795976311107df4f8971153affc</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Delete</label>
+        <location>leading_swipe</location>
+        <name>Delete (interactions)</name>
+        <order/>
+        <parent>3881a795976311107df4f8971153affa</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-03 05:11:40</sys_created_on>
+        <sys_id>7081a795976311107df4f8971153afff</sys_id>
+        <sys_name>Delete (interactions)</sys_name>
+        <sys_package display_value="chat_ops" source="x_52238_chat_ops">d5abd399972311107df4f8971153afbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="chat_ops">d5abd399972311107df4f8971153afbe</sys_scope>
+        <sys_update_name>sys_sg_button_instance_7081a795976311107df4f8971153afff</sys_update_name>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=7081a795976311107df4f8971153afff"/>
+</record_update>

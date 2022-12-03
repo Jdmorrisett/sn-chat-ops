@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_52238_chat_ops_interactions">x_52238_chat_ops_interactions</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>COIN</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-03 05:10:13</sys_created_on>
+        <sys_id>3b212f55976311107df4f8971153af3b</sys_id>
+        <sys_name>COIN</sys_name>
+        <sys_package display_value="chat_ops" source="x_52238_chat_ops">d5abd399972311107df4f8971153afbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="chat_ops">d5abd399972311107df4f8971153afbe</sys_scope>
+        <sys_update_name>sys_number_3b212f55976311107df4f8971153af3b</sys_update_name>
+    </sys_number>
+</record_update>

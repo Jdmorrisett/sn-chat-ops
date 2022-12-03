@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="interactions Item Stream">3881a795976311107df4f8971153aff9</item_stream>
+        <segment display_value="interactions Item Stream Segment">7c81a795976311107df4f8971153aff8</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-03 05:11:40</sys_created_on>
+        <sys_id>3081a795976311107df4f8971153affa</sys_id>
+        <sys_name/>
+        <sys_package display_value="chat_ops" source="x_52238_chat_ops">d5abd399972311107df4f8971153afbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="chat_ops">d5abd399972311107df4f8971153afbe</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_3081a795976311107df4f8971153affa</sys_update_name>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

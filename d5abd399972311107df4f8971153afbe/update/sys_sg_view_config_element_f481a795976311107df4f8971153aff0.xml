@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>sender-FieldLabel</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-03 05:11:39</sys_created_on>
+        <sys_id>f481a795976311107df4f8971153aff0</sys_id>
+        <sys_name>sender-FieldLabel</sys_name>
+        <sys_package display_value="chat_ops" source="x_52238_chat_ops">d5abd399972311107df4f8971153afbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="chat_ops">d5abd399972311107df4f8971153afbe</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_f481a795976311107df4f8971153aff0</sys_update_name>
+        <view_config display_value="interactions Detail Screen View Config">7081a795976311107df4f8971153afbb</view_config>
+        <view_template_slot display_value="text_06">cb878d7041275010f877183fc9b8be59</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

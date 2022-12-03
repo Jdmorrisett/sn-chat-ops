@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_52238_chat_ops.Slack</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Slack</name>
+        <script><![CDATA[var Slack = Class.create();
+Slack.prototype = {
+    initialize: function() {
+    },
+
+	verifySigniture: function (request) {
+		var slack_signing_secret = gs.getProperty('x_52238_chat_ops.slack_signing_key');
+		var request_body = request.body;
+		var timestamp = request.headers['X-Slack-Request-Timestamp'];
+		// if the timestamp is older than 5 minutes, just return
+		// return
+		var sig_basestring = `v0:${timestamp}:${request_body}`;
+	},
+	
+    type: 'Slack'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-03 05:43:22</sys_created_on>
+        <sys_id>d3f3ef99976311107df4f8971153af74</sys_id>
+        <sys_name>Slack</sys_name>
+        <sys_package display_value="chat_ops" source="x_52238_chat_ops">d5abd399972311107df4f8971153afbe</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="chat_ops">d5abd399972311107df4f8971153afbe</sys_scope>
+        <sys_update_name>sys_script_include_d3f3ef99976311107df4f8971153af74</sys_update_name>
+    </sys_script_include>
+</record_update>

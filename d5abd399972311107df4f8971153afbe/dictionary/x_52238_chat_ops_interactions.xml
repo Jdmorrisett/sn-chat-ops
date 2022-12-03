@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1721eb55976311107df4f8971153af95" label="interactions" max_length="40" name="x_52238_chat_ops_interactions" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Message" max_length="1000" name="message" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sender" max_length="100" name="sender" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="Task" max_length="32" name="task" reference="task" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="task" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="✅ - Task" value="task"/>
+                <element inactive_on_update="false" label="❓ - Request" value="request"/>
+                <element inactive_on_update="false" label="🚨 - Incident" value="incident"/>
+                <element inactive_on_update="false" label="🔥 - Major Incident" value="major_incident"/>
+                <element inactive_on_update="false" label="🙏 - Change" value="change"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="task"/>
+        </index>
+    </element>
+</database>
